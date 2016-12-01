@@ -1,0 +1,28 @@
+@import "../node_modules/normalize-scss/sass/normalize";
+@include normalize();
+
+$brandingColour: #666;
+$lightGrey: #f5f5f5;
+
+body {
+	background-color: $lightGrey;
+	font-size: 14px;
+}
+
+.main {
+	background-color: #fff;
+	padding: 1em 1em 3em;
+}
+
+.banner {
+	background-color: $brandingColour;
+	color: #fff;
+	padding: 1em;
+	h1 {
+		font-weight: normal;
+	}
+}
+
+.hidden {
+	display: none;
+}
